@@ -1,16 +1,19 @@
 import colors from './colors'
 import alignment from './alignment'
-import globalStyle from './GlobalStyle'
+import GlobalStyle from './GlobalStyle'
+import media from './media'
 import transitions from './transitions'
 import font from './font'
+import spacing from './spacing'
 
 const theme = {
-	colors,	
-	alignment,
-	transitions,
-	font
+  colors,
+  alignment,
+  transitions,
+  font,
+  spacing
 }
 
-export const GlobalStyle = globalStyle
+export { GlobalStyle, media }
 
 export default theme

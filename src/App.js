@@ -3,6 +3,8 @@ import React, { Fragment } from 'react'
 import { ThemeProvider } from 'styled-components'
 /* Theme */
 import theme, { GlobalStyle } from './theme'
+/* Pages */
+import { Home } from './pages'
 /* Container */
 import { AppWrapper } from './containers'
 
@@ -11,7 +13,7 @@ const App = props => (
 		<Fragment>
 			<GlobalStyle />
 			<AppWrapper {...props}>
-				<h2>hello world</h2>
+				<Home />
 			</AppWrapper>
 		</Fragment>
 	</ThemeProvider>

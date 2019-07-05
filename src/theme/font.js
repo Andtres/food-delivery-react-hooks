@@ -6,23 +6,23 @@ const sizes = {
   huge: '1.6rem',
   small: '0.9rem',
   smaller: '0.8rem',
-  tiny: '0.7rem'
+  tiny: '0.7rem',
 }
 
 const family = {
-  normal: {    
+  normal: {
     'font-weight': 'normal',
-    'font-display': 'auto'
+    'font-display': 'auto',
   },
-  title: {    
+  title: {
     'font-weight': 'bold',
-    'font-display': 'auto'
-  }  
+    'font-display': 'auto',
+  },
 }
 
 const font = {
   sizes,
-  family
+  family,
 }
 
 export default font

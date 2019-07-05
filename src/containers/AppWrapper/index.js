@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 const AppWrapper = ({ children }) => <Fragment>{children}</Fragment>
 
 AppWrapper.propTypes = {
-	children: PropTypes.node
+  children: PropTypes.node.isRequired,
 }
 
 export default AppWrapper

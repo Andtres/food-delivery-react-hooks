@@ -1,5 +1,3 @@
 import AppWrapper from './AppWrapper'
 
-export {
-  AppWrapper
-}
+export { AppWrapper }

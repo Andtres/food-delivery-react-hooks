@@ -2,8 +2,7 @@
   "name": "food-context",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "babel-preset-react-app": "^9.0.0",
+  "dependencies": {        
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -16,7 +15,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
   },
   "eslintConfig": {
     "extends": "react-app"
